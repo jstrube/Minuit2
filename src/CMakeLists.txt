@@ -194,6 +194,7 @@ prepend_path(MINUIT2_HEADERS "${Minuit2_SOURCE_DIR}/inc/Minuit2" ${MINUIT2_HEADE
 prepend_path(MINUIT2_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}" ${MINUIT2_SOURCES})
 
 add_library(Minuit2
+    SHARED
     ${MINUIT2_SOURCES}
     ${MINUIT2_HEADERS}
     )
