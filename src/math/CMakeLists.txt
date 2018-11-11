@@ -83,5 +83,5 @@ install(TARGETS Minuit2Math
         ARCHIVE DESTINATION lib
         )
 
-install(FILES ${FIT_HEADERS} DESTINATION include/Minuit2/Fit)
-install(FILES ${MATH_HEADERS} DESTINATION include/Minuit2/Math)
+install(FILES ${FIT_HEADERS} DESTINATION include/Fit)
+install(FILES ${MATH_HEADERS} DESTINATION include/Math)

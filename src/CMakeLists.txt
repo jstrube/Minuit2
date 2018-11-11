@@ -226,5 +226,5 @@ install(TARGETS Minuit2
         ARCHIVE DESTINATION lib
         )
 
-install(FILES ${MINUIT2_HEADERS} DESTINATION include/Minuit2/Minuit2)
+install(FILES ${MINUIT2_HEADERS} DESTINATION include/Minuit2)
 
