@@ -1,5 +1,6 @@
 This is the Minuit2 fitter standalone edition, from the [ROOT] toolkit. It uses [CMake] 3.1+ to build.
 For information about the Minuit2 fitter, please see the [documentation in ROOT][minuitdoc].
+A build script in [Yggdrasil](https://github.com/JuliaPackaging/Yggdrasil/blob/master/M/Minuit2/build_tarballs.jl) is used to automatically build [binaries for different architectures](https://github.com/JuliaBinaryWrappers/Minuit2_jll.jl/releases).
 
 ## Source
 
